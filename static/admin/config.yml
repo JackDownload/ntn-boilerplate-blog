@@ -66,7 +66,7 @@ collections:
           default: 'story',
           options: [{ label: 'Story', value: 'story' }, { label: 'Photo', value: 'photo' }],
         }
-      - {label: "category", name: "category", widget: "relation", collection: "category", searchFields: ["title"], valueField: "title", multiple: true}  
+      - {label: "Category", name: "category", widget: "relation", collection: "category", searchFields: ["title"], valueField: "title", multiple: true}  
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string', required: false }
