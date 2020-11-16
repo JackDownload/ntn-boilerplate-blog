@@ -10,7 +10,7 @@ export default {
     if (payload) return { categoryPost: payload }
     else
       return {
-        categoryPost: await require(`~/assets/content/categorys/${params.category}.json`),
+        return this.$store.state.categoryPosts
       }
   },
 }
