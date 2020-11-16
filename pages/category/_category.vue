@@ -18,7 +18,7 @@
 export default {
   computed: {
     projectPosts() {
-      return this.$store.state.projectPosts.category
+      return this.$store.state.projectPosts
     },
   },
 }
