@@ -5,7 +5,6 @@
   "description": "Short descriptive text",
   "body": "Longer **markdown**-*enabled* content text.",
   "category": [
-    "Blog test",
-    "sdad"
+    "Blog test"
   ]
 }
