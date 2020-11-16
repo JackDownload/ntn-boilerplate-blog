@@ -10,8 +10,7 @@ const dynamicContentPath = 'assets/content' // ? No prepending/appending backsla
 const dynamicRoutes = getDynamicPaths(
   {
     blog: 'blog/*.json',
-    projects: 'projects/*.json',
-    category: 'category/*.json'
+    projects: 'projects/*.json'
   },
   dynamicContentPath
 )
@@ -96,7 +95,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) { }
+    extend(config, ctx) {}
   },
   /*
    ** Custom additions configuration
